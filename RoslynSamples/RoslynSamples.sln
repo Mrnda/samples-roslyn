@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynSamples.BasicRefactor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynSamples.BasicRefactoring.Vsix", "RoslynSamples.BasicRefactoring\RoslynSamples.BasicRefactoring.Vsix\RoslynSamples.BasicRefactoring.Vsix.csproj", "{6238B0AB-67F7-418D-B5A4-35EB6834CB83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynSamples.API.Syntax", "RoslynSamples.API.Syntax\RoslynSamples.API.Syntax.csproj", "{1E6ADFA3-8C70-4EFF-B4F2-018D454C50A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{6238B0AB-67F7-418D-B5A4-35EB6834CB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6238B0AB-67F7-418D-B5A4-35EB6834CB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6238B0AB-67F7-418D-B5A4-35EB6834CB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6ADFA3-8C70-4EFF-B4F2-018D454C50A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6ADFA3-8C70-4EFF-B4F2-018D454C50A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6ADFA3-8C70-4EFF-B4F2-018D454C50A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6ADFA3-8C70-4EFF-B4F2-018D454C50A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{0D95EF40-C844-4398-8FCE-142BFC14D50F} = {CB213BB9-548B-4684-AB95-384B038F4B3A}
 		{5DC9625B-D2C2-4618-814D-E8CE88A8B8CF} = {EA604F26-C000-436C-A2BA-FDAC787C5A80}
 		{6238B0AB-67F7-418D-B5A4-35EB6834CB83} = {EA604F26-C000-436C-A2BA-FDAC787C5A80}
+		{1E6ADFA3-8C70-4EFF-B4F2-018D454C50A8} = {41CCEAA3-7366-4C8E-9A14-8919D32FA92C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC98FE6C-BD70-4D51-9530-71A7EA06DD50}
