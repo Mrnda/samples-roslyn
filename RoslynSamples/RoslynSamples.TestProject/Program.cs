@@ -9,4 +9,9 @@ namespace RoslynSamples.TestProject
             Console.WriteLine("Hello World!");
         }
     }
+
+    class TestingClass
+    {
+
+    }
 }
