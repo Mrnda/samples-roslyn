@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Analyzer Include="..\RoslynSamples.BasicAnalyzer\RoslynSamples.BasicAnalyzer\RoslynSamples.BasicAnalyzer.csproj" />
+    <ProjectReference Include="..\RoslynSamples.BasicAnalyzer\RoslynSamples.BasicAnalyzer\RoslynSamples.BasicAnalyzer.csproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <OutputItemType>Analyzer</OutputItemType>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
